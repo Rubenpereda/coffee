@@ -140,3 +140,46 @@ main h2{
 .decoracion{
     text-align:right ;
 }
+
+.contactos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contacto{
+    background-color: #299646;
+    padding: 30px 40px;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+.trabajo{
+    margin-top: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px;
+    background-color: #d4e9e2;
+    text-align: center;
+}
+
+.trabajo h3{
+    font-size: 30px;
+}
+
+.trabajo p a{
+    margin-top: 30px;
+    width: 75px;
+    display: flex;
+    text-decoration: none;
+    color: #f9f9f9;
+    background-color: #00754A;
+    padding: 10px 15px;
+    margin-left: 380px;
+    border-radius: 20px;
+}
+
+.trabajo p a:hover{
+background-color: #299646;
+}
